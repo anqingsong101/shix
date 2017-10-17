@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+		<!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--禁止浏览器自动的识别-电话号码-email--->
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<!--是否启用Web全屏-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+		<!--设置苹果工具栏颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black " />
+		<script type="text/javascript">
+			window.onload = function() {
+				var width = document.documentElement.clientWidth;
+				document.documentElement.style.fontSize = width / 750 * 100 + "px";
+			}
+			window.onresize = function() {
+				window.location.reload();
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="../aChajian/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="../reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/sy.css" />
+	</head>
+
+	<body>
+		<header class="sy-head">
+			<div>
+				<dl class="sy-head-dl-1">
+					<dt><a href=""><img src="img-sy/1首页_spec_05.png"/></a></dt>
+					<dd>我的</dd>
+				</dl>
+				<dl class="sy-head-dl-2">
+					<dt><a href=""><img src="img-sy/1首页_spec_07.png"/></a></dt>
+					<dd>导航</dd>
+				</dl>
+			</div>
+		</header>
+		<div class="swiper-container sy-img-1">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img-sy/1首页_spec_12.png" /></div>
+				<div class="swiper-slide"><img src="img-sy/1首页_spec_12.png" /></div>
+				<div class="swiper-slide"><img src="img-sy/1首页_spec_12.png" /></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="sy-dl">
+			<div class="sy-dl-a">
+				<dl class="sy-dl-1">
+					<dt><a href=""><img src="img-sy/1首页_spec_15.png"/></a></dt>
+					<dd>装修方案</dd>
+				</dl>
+				<dl class="sy-dl-1">
+					<dt><a href=""><img src="img-sy/1首页_spec_17.png"/></a></dt>
+					<dd>效果图</dd>
+				</dl>
+				<dl class="sy-dl-1">
+					<dt><a href=""><img src="img-sy/1首页_spec_19.png"/></a></dt>
+					<dd>设计师</dd>
+				</dl>
+				<dl class="sy-dl-1">
+					<dt><a href=""><img src="img-sy/1首页_spec_21.png"/></a></dt>
+					<dd>装修工地</dd>
+				</dl>
+			</div>
+			<div class="sy-dl-b">
+				<dl class="sy-dl-2">
+					<dt><a href=""><img src="img-sy/1首页_spec_27.png"/></a></dt>
+					<dd>装修攻略</dd>
+				</dl>
+				<dl class="sy-dl-2">
+					<dt><a href=""><img src="img-sy/1首页_spec_28.png"/></a></dt>
+					<dd>装修贷款</dd>
+				</dl>
+				<dl class="sy-dl-2">
+					<dt><a href=""><img src="img-sy/1首页_spec_29.png"/></a></dt>
+					<dd>免费预约</dd>
+				</dl>
+				<dl class="sy-dl-2">
+					<dt><a href=""><img src="img-sy/1首页_spec_30.png"/></a></dt>
+					<dd>十秒报价</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="sy-p">
+			&nbsp;<span>全无装修</span> 包设计、包主材、包水电、包施工
+		</div>
+		<div class="sy-img-2">
+			<div class="swiper-container lb">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img-sy/1首页_spec_36.png" /></div>
+					<div class="swiper-slide"><img src="img-sy/1首页_spec_36.png" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<!--<div class="sy-tuw">
+			<li>
+				<img src="img-sy/1首页_spec_39.png"/>
+				0增项，标准施工
+			</li>
+			<li>
+				<img src="img-sy/1首页_spec_41.png"/>
+				杜绝项目外包
+			</li>
+			<li>
+				<img src="img-sy/1首页_spec_43.png"/>
+				装修贷款
+			</li>
+		</div>
+		<div class="sy-p">
+			&nbsp;<span>装修预习</span> 免费上门量房，设计方案满意为止
+		</div>
+		<div class="sy-inp">
+			<input type="text" placeholder="小区名" name="" id="" value="" />
+			<input type="text" placeholder="小区名" name="" id="" value="" />
+			<input type="text" placeholder="小区名" name="" id="" value="" />
+			<button>立即申请</button>
+		</div>-->
+		<script src="../aChajian/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var lb1 = new Swiper('.sy-img-1', {
+				pagination: '.swiper-pagination',
+				loop: true,
+				autoplay: 1000
+			})
+			var lb2 = new Swiper('.lb', {
+				pagination: '.swiper-pagination',
+			})
+		</script>
+	</body>
+
+</html>

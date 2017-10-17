@@ -1,0 +1,124 @@
+@charset "utf-8";
+@mixin aa($a, $b) {
+    width: $a;
+    height: $b;
+}
+.sy-head {
+    @include aa(100%,1rem);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background: url("../img-sy/logo.png") no-repeat 0.18rem center;
+    background-size: 2.2rem 0.75rem;
+    div {
+        @include aa(1.45rem,.75rem);
+        display: flex;
+        font-size: 0.22rem;
+        color: #999;
+        align-items: center;
+        dt {
+            @include aa(.45rem,.45rem);
+            display: flex;
+            align-items: center;
+        }
+    }
+    .sy-head-dl-1 {
+        margin-right: .35rem;
+        img {
+            @include aa(.45rem,.45rem)
+        }
+    }
+    .sy-head-dl-2 {
+        img {
+            @include aa(.33rem,.33rem)
+        }
+    }
+}
+
+.sy-img-1{
+    @include aa(100%,2.4rem);
+    img{@include aa(100%,100%)}
+    .swiper-pagination-bullet{
+        @include aa(.12rem,.12rem);
+        
+    }
+    .swiper-pagination,.swiper-pagination-bullets{
+        bottom: -.02rem;
+        left: -.05rem;
+    }
+    .swiper-pagination-bullet{
+        margin: 0 .12rem !important;
+    }
+}
+
+.sy-dl{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: .18rem solid #f4f4f4;
+    dl{
+        @include aa(1.2rem,1.65rem);
+        font-size: 0.27rem;
+        text-align: center;
+        dt{margin-bottom: .2rem;}
+        img{@include aa(1.2rem,1.2rem)}
+    }
+   .sy-dl-a{
+       @include aa(6.85rem,1.7rem);
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-top: .36rem;
+   }
+   .sy-dl-b{
+       @include aa(6.85rem,1.7rem);
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-top: .52rem;
+       margin-bottom: .4rem;
+   }
+}
+
+.sy-p{
+    @include aa(7.15rem,.42rem);
+    border-left: .05rem solid #37c993;
+    margin: .32rem auto;
+    font-size: .21rem;
+    color: gray;
+    span{
+        font-size: .37rem;
+        color: black;
+        margin: 0 .18rem;
+        }
+}
+
+.sy-img-2{
+    @include aa(7.15rem,4.35rem);
+    margin: 0 auto;
+    .lb{
+        @include aa(100%,100%)
+    }
+    .swiper-wrapper{
+         width: 100% !important;
+        height: 4rem;
+    }
+    .swiper-slide{
+        width: 100% !important;
+        height: 4rem;
+    }
+    img{
+        @include aa(100%,100%)
+    }
+    .swiper-pagination-bullet{
+        @include aa(.12rem,.12rem);
+    }
+     .swiper-pagination-bullet{
+        margin: 0 .12rem !important;
+    }
+    .swiper-pagination,.swiper-pagination-bullets{
+        bottom: 0rem;
+        left: -.05rem;
+    }
+}

@@ -1,0 +1,114 @@
+.sy-head {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background: url("../img-sy/logo.png") no-repeat 0.18rem center;
+  background-size: 2.2rem 0.75rem; }
+  .sy-head div {
+    width: 1.45rem;
+    height: 0.75rem;
+    display: flex;
+    font-size: 0.22rem;
+    color: #999;
+    align-items: center; }
+    .sy-head div dt {
+      width: 0.45rem;
+      height: 0.45rem;
+      display: flex;
+      align-items: center; }
+  .sy-head .sy-head-dl-1 {
+    margin-right: .35rem; }
+    .sy-head .sy-head-dl-1 img {
+      width: 0.45rem;
+      height: 0.45rem; }
+  .sy-head .sy-head-dl-2 img {
+    width: 0.33rem;
+    height: 0.33rem; }
+
+.sy-img-1 {
+  width: 100%;
+  height: 2.4rem; }
+  .sy-img-1 img {
+    width: 100%;
+    height: 100%; }
+  .sy-img-1 .swiper-pagination-bullet {
+    width: 0.12rem;
+    height: 0.12rem; }
+  .sy-img-1 .swiper-pagination, .sy-img-1 .swiper-pagination-bullets {
+    bottom: -.02rem;
+    left: -.05rem; }
+  .sy-img-1 .swiper-pagination-bullet {
+    margin: 0 .12rem !important; }
+
+.sy-dl {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: .18rem solid #f4f4f4; }
+  .sy-dl dl {
+    width: 1.2rem;
+    height: 1.65rem;
+    font-size: 0.27rem;
+    text-align: center; }
+    .sy-dl dl dt {
+      margin-bottom: .2rem; }
+    .sy-dl dl img {
+      width: 1.2rem;
+      height: 1.2rem; }
+  .sy-dl .sy-dl-a {
+    width: 6.85rem;
+    height: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .36rem; }
+  .sy-dl .sy-dl-b {
+    width: 6.85rem;
+    height: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .52rem;
+    margin-bottom: .4rem; }
+
+.sy-p {
+  width: 7.15rem;
+  height: 0.42rem;
+  border-left: .05rem solid #37c993;
+  margin: .32rem auto;
+  font-size: .21rem;
+  color: gray; }
+  .sy-p span {
+    font-size: .37rem;
+    color: black;
+    margin: 0 .18rem; }
+
+.sy-img-2 {
+  width: 7.15rem;
+  height: 4.35rem;
+  margin: 0 auto; }
+  .sy-img-2 .lb {
+    width: 100%;
+    height: 100%; }
+  .sy-img-2 .swiper-wrapper {
+    width: 100% !important;
+    height: 4rem; }
+  .sy-img-2 .swiper-slide {
+    width: 100% !important;
+    height: 4rem; }
+  .sy-img-2 img {
+    width: 100%;
+    height: 100%; }
+  .sy-img-2 .swiper-pagination-bullet {
+    width: 0.12rem;
+    height: 0.12rem; }
+  .sy-img-2 .swiper-pagination-bullet {
+    margin: 0 .12rem !important; }
+  .sy-img-2 .swiper-pagination, .sy-img-2 .swiper-pagination-bullets {
+    bottom: 0rem;
+    left: -.05rem; }
+
+/*# sourceMappingURL=sy.css.map */
